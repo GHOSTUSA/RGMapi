@@ -1,0 +1,6 @@
+@RGMapi_HostAddress = http://localhost:5237
+
+GET {{RGMapi_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
