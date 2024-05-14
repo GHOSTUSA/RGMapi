@@ -6,7 +6,6 @@ using Microsoft.EntityFrameworkCore.Metadata.Internal;
 using Microsoft.Extensions.Options;
 using RGMapi.Models.EntityFramework;
 using SAE_4._01.Models.DataManager;
-using RGMapi.Models.EntityFramework;
 using RGMapi.Models.Repository;
 using System.Drawing;
 using System.Reflection.Metadata;
