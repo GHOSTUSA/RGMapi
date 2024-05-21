@@ -20,7 +20,7 @@ namespace RGMapi.Controllers
             _context = context;
         }
 
-        // GET: api/Liens
+        // GET: api/Liens    re
         [HttpGet]
         public async Task<ActionResult<IEnumerable<Lien>>> GetLiens()
         {
