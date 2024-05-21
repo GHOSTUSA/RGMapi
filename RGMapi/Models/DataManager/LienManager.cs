@@ -47,66 +47,6 @@ namespace SAE_4._01.Models.DataManager
             await _dbContext.SaveChangesAsync();
         }
 
-        Task<ActionResult<IEnumerable<Lien>>> IDataRepository<Lien>.GetByIdTailleAsync(int id)
-        {
-            throw new NotImplementedException();
-        }
-
-        Task<ActionResult<IEnumerable<Lien>>> IDataRepository<Lien>.GetByIdColorisAsync(int id)
-        {
-            throw new NotImplementedException();
-        }
-
-        Task<ActionResult<IEnumerable<Lien>>> IDataRepository<Lien>.GetByIdEquipementAsync(int id)
-        {
-            throw new NotImplementedException();
-        }
-
-        Task<ActionResult<IEnumerable<Lien>>> IDataRepository<Lien>.GetByIdMotoAsync(int id)
-        {
-            throw new NotImplementedException();
-        }
-
-        Task<ActionResult<IEnumerable<Lien>>> IDataRepository<Lien>.GetByIdOptionAsync(int id)
-        {
-            throw new NotImplementedException();
-        }
-
-        Task<ActionResult<IEnumerable<Lien>>> IDataRepository<Lien>.GetByIdPackAsync(int id)
-        {
-            throw new NotImplementedException();
-        }
-
-        Task<ActionResult<IEnumerable<Lien>>> IDataRepository<Lien>.GetByIdClientAsync(int id)
-        {
-            throw new NotImplementedException();
-        }
-
-        Task<ActionResult<IEnumerable<Lien>>> IDataRepository<Lien>.GetByIdConcessionnaireAsync(int id)
-        {
-            throw new NotImplementedException();
-        }
-
-        Task<ActionResult<IEnumerable<Lien>>> IDataRepository<Lien>.GetByIdCommandeAsync(int id)
-        {
-            throw new NotImplementedException();
-        }
-
-        Task<ActionResult<IEnumerable<Lien>>> IDataRepository<Lien>.GetByIdMotoConfigurableAsync(int id)
-        {
-            throw new NotImplementedException();
-        }
-
-        Task<ActionResult<IEnumerable<Lien>>> IDataRepository<Lien>.GetByEquIdEquipementAsync(int id)
-        {
-            throw new NotImplementedException();
-        }
-
-        Task<ActionResult<IEnumerable<Lien>>> IDataRepository<Lien>.GetByIdStyleAsync(int id)
-        {
-            throw new NotImplementedException();
-        }
-
         Task<ActionResult<Lien>> IDataRepository<Lien>.GetBy2CompositeKeysAsync(int id1, int id2)
         {
             throw new NotImplementedException();
