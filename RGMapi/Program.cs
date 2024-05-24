@@ -5,14 +5,14 @@ using Microsoft.EntityFrameworkCore.ChangeTracking.Internal;
 using Microsoft.EntityFrameworkCore.Metadata.Internal;
 using Microsoft.Extensions.Options;
 using RGMapi.Models.EntityFramework;
-using SAE_4._01.Models.DataManager;
+using SAE_4._01.Models.DataManager; // Tu utilise pas le bon DataManager, celui là est celui de la SAE et ne convient donc pas car bon nom de projet
 using RGMapi.Models.Repository;
 using System.Drawing;
 using System.Reflection.Metadata;
 using System.Security.Cryptography.Pkcs;
 using System.Transactions;
 
-namespace SAE_4._01
+namespace SAE_4._01 // ????????? C'est pas compatible, t'as pas pensé a changer tes noms de namespace en faisant tes copié coller.
 {
     public class Program
     {
