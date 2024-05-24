@@ -3,7 +3,7 @@ using RGMapi.Models.Repository;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 
-namespace SAE_4._01.Models.DataManager
+namespace SAE_4._01.Models.DataManager // Pas le bon namespace ici nom plus du coup, ça devrait etre quelque chose du genre RGMapi.Models.DataManager ou autre chose ressemblant
 {
     public class LienManager : IDataRepository<Lien>
     {
